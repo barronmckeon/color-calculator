@@ -1,0 +1,26 @@
+{
+
+
+
+  if (option === 1 ){
+    let color1 = Number(prompt("Enter color 1 for Red, 2 for Blue, 3 for Yellow"));
+    
+    }if (color1 && color2 ){
+        console.log("Purple");
+    } else if (color1 && color3) {
+        console.log("Orange");
+    } else if (option === color2 && color3) {
+    console.log("Green");
+    } else 
+    console.log("Error");
+
+
+
+
+
+  "dependencies": {
+    "prompt": "^1.2.1",
+    "prompt-sync": "^4.2.0",
+    "synch": "^1.0.0"
+  }
+}
